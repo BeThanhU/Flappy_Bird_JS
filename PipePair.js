@@ -1,7 +1,7 @@
 class PipePair{
 	constructor(){
-		this.gap = 200;
-		this.topHeight = floor(random(20, canvas.height - this.gap));
+		this.gap = 250;
+		this.topHeight = floor(random(40, canvas.height - this.gap));
 		this.bottomHeight = canvas.height - this.topHeight - this.gap;
 
 		this.bottomPipe = new Pipe(false, this.bottomHeight);

@@ -35,7 +35,7 @@ function setup(){
 	player = new Player(canvas.width / 3, canvas.height / 2);
 	pipes = new PipePair(false);
 	pipes2 = new PipePair(true);
-	pipes2.setX(1.75 * canvas.width + pipes2.topPipe.width / 2);
+	pipes2.setX(1.7 * canvas.width + pipes2.topPipe.width / 2);
 	ground = new Ground();
 	pauseBecauseDead = false;
 	this.panSpeed = 0;
